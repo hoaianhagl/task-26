@@ -1,6 +1,24 @@
 /*------------------------------------------------------------
-other
+label
 ------------------------------------------------------------*/
+.c-label {
+    font-size: 2rem;
+    border: 1px solid #cbcbcb;
+    border-radius: 4px;
+    margin-right: 12px;
+    display: inline-block;
+}
+
+@include sp {
+    .c-label {
+        font-size: 0.9rem;
+        margin-right: 3px;
+        margin-bottom: 3px;
+        border-radius: 2px;
+    }
+}
+
+
 
 /*
 ------------------------------------------------------------*/

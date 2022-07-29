@@ -1,16 +1,201 @@
-///*------------------------------------------------------------
-//Anchor position
-//------------------------------------------------------------*/
-//.u-anchor:before {
-//	content:"";
-//	margin-top: -100px;
-//	padding-top: 100px;
-//}
+
+
+//------------------------------------------------------------
+// letter-spacing
+//------------------------------------------------------------
+
 
 //------------------------------------------------------------
 // margin
 //------------------------------------------------------------
+.u-l1 {
+    letter-spacing: -1px;
+    padding: 9.7% 4% 4% 3.4%;
+    text-align: center;
+}
+
+.u-l2 {
+    text-align: center;
+    letter-spacing: -1.9px;
+    padding: 9.8% 4.3% 4% 2.4%;
+}
+
+.u-l3 {
+    letter-spacing: -2.2px;
+    padding: 9.8% 4.8% 4% 2%;
+    text-align: center;
+}
+
+@include screen1200 {
+    .u-l1,
+    .u-l2,
+    .u-l3 {
+        top: 47px;
+        left: 0%;
+        letter-spacing: -0.8px;
+    }
+
+    .p-intro {
+        .p-welcome {
+            &__content {
+                flex: 1 1 50%;
+            }
+            
+            &__image {
+                flex: 1 1 50%;
+            }
+        }
+    }
+}
+
+@include sp {
+    .u-l1 {
+        padding: 9.9% 4% 9.2% 3.4%;
+        letter-spacing: -0.1px;
+    }
+    
+    .u-l2 {
+        letter-spacing: -0.8px;
+        padding: 9.9% 1.7% 9% 1.2%;
+    }
+    
+    .u-l3 {
+        letter-spacing: -0.9px;
+    }
+
+    .u-ls1 {
+        letter-spacing: 0.11rem;
+    }
+}
 
 //------------------------------------------------------------
-// color
+// padding
 //------------------------------------------------------------
+.u-p1 {
+    padding: 4px 25px 4px 20px;
+    letter-spacing: -1.3px;
+    top: -9.1%;
+    right: -2.1%;
+}
+
+.u-p2 {
+    padding: 4px 34px 4px 39px;
+    letter-spacing: -0.7px;
+    top: -9.1%;
+    right: -1.9%;
+}
+
+.u-p3 {
+    padding-top: 7.6%;
+    padding-left: 6.7%;
+    padding-right: 6.7%;
+}
+
+.u-p4 {
+    padding-top: 7.5%;
+    padding-left: 14.9%;
+    margin-right: -2.43%;
+}
+
+.u-p5 {
+    padding-top: 7.6%;
+    padding-left: 6.7%;
+    padding-right: 5.3%;
+}
+
+.u-p6 {
+    padding-top: 2%;
+}
+
+.u-imgp1 {
+    top: -28px;
+    left: -2px;
+}
+ 
+.u-imgp2 {
+    top: -8.5%;
+    left: 13.7%;
+}
+
+.u-imgp3 {
+    top: -30px;
+    left: -2px;
+}
+
+@include sp {
+    .u-p1 {
+        width: 147px;
+        padding: 4px 0 3px 15px;
+        letter-spacing: -1px;
+        top: -10%;
+        left: -5px;
+        right: 186px;
+    }
+    
+    .u-p2 {
+        padding: 4px 22.7px 3px 27.4px;
+        letter-spacing: -0.4px;
+        top: -9.9%;
+        right: -2%;
+    }
+
+    .u-p3 {
+        padding-top: 10.5%;
+        padding-left: 13.5%;
+        padding-right: 0;
+        left: 0.5%;
+    }
+    
+    .u-p4 {
+        padding-top: 10.2%;
+        padding-left: 12.33%;
+        margin-right: -2.3%;
+        right: 0.1%;
+    }
+    
+    .u-p5 {
+        padding-top: 10.2%;
+        padding-left: 28px;
+        padding-right: 0;
+        left: 2.4%;
+    }
+
+    .u-imgp1 {
+        top: -30.7px;
+        left: 0;
+    }
+
+    .u-imgp2 {
+        top: -30.2px;
+        left: -6px;
+    }
+
+    .u-imgp3 {
+        top: -31.5px;
+        left: -12.5px;
+    }
+}
+
+//------------------------------------------------------------
+// flex-direction
+//------------------------------------------------------------
+.u-fd {
+    flex-direction: row-reverse;
+}
+
+//------------------------------------------------------------
+// span for tableitem
+//------------------------------------------------------------
+
+.u-span {
+    letter-spacing: -11px;
+    margin-left: 3px;
+    margin-right: 12px;
+}
+
+.u-span1 {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+

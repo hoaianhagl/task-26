@@ -4,3 +4,63 @@ icon
 
 /*
 ------------------------------------------------------------*/
+
+.c-icon {
+    &::after {
+        content: url("./_public/assets/img/icon-intro.svg");
+        position: absolute;
+        width: 41px;
+    }
+
+    &__style1 {
+        &::after {
+            top: -24px;
+            right: -23px;
+        }
+    }
+
+    &__style2 {
+        &::after {
+            top: -23px;
+            right: -52px;
+        }
+    }
+
+    &__style3 {
+        &::after {
+            top: -25px;
+            right: -38px;
+        }
+    }
+}
+
+@include sp {
+    .c-icon {
+        &::after {
+            width: 21px;
+        }
+
+        &__style1 {
+            &::after {
+                top: -13px;
+                right: -13px;
+            }
+        }
+    
+        &__style2 {
+            &::after {
+                top: -12px;
+                right: -27px;
+            }
+        }
+    
+        &__style3 {
+            &::after {
+                top: -13px;
+                right: -21px;
+            }
+        }
+    }
+}
+
+
