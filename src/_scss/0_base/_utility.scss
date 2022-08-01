@@ -199,3 +199,16 @@
 }
 
 
+@include sp {
+    .u-span {
+        letter-spacing: -5px;
+        margin-left: 1px;
+        margin-right: 5px;
+    }
+    
+    .u-span1 {
+        margin-left: -3px;
+        margin-right: -4px;
+    }
+}
+
