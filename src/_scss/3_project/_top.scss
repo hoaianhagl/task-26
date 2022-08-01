@@ -12,7 +12,7 @@ Intro Part
     padding-top: 50px;
     background-image: url("../_public/assets/img/bg-intro.png");
     background-position-y: -18px;
-    margin-bottom: 8.5%;
+    margin-bottom: 163px;
 
     &__case {
         max-width: 100%;
@@ -138,7 +138,7 @@ Intro Part
             }
         }
 
-        h3 {
+        h1 {
             font-family: "Oswald", sans-serif;
             font-size: 4.8rem;
             font-weight: 300;
@@ -242,8 +242,8 @@ Recommend Part
     &__pointlist {
         display: flex;
         justify-content: space-between;
-        padding: 147px 4.6% 78px 4.4%;
-        column-gap: 24px;
+        padding: 148px 4.6% 77px 4.4%;
+        column-gap: 1.5%;
     }
 
     &__pointitem:hover {
@@ -254,7 +254,7 @@ Recommend Part
     &__pointitem {
         background-color: #fff;
         width: calc(100% - 72px);
-        padding: 1.5% 1.3% 2.8%;
+        padding: 1.4% 1.3% 2.8%;
         margin: 0 auto;
         font-family: $font1;
 
@@ -285,7 +285,7 @@ Present Part
 .p-present {
     max-width: 1212px;
     width: 100%;
-    margin: 118px auto 0;
+    margin: 6.2% auto 0;
     padding: 0 10px;
 }
 
@@ -293,7 +293,7 @@ Present Part
 Design Part
 ------------------------------------------------------------*/
 .p-design {
-    margin-top: 124px;
+    margin-top: 125px;
 
     &__slide {
         position: relative;
@@ -325,14 +325,14 @@ Design Part
         }
         
         .slick-prev {
-            bottom: -11.9%;
-            right: 5%;
+            bottom: -81px;
+            right: 73px;
             background-image: url("./_public/assets/img/arrow-left.svg");
             
         } 
         
         .slick-next {
-            bottom: -11.9%;
+            bottom: -81px;
             right: 0%;
             background-image: url("./_public/assets/img/arrow-right.svg");
         }
@@ -343,7 +343,7 @@ Design Part
     &__slide::after {
         content: "";
         position: absolute;
-        top: 83.5%;
+        top: 82.5%;
         right: -35%;
         background-color: #ededed;
         width: 1230px;
@@ -363,17 +363,17 @@ Design Part
 
     &__content {
         width: 60%;
-        // margin-left: 16%;
-        margin-top: 1.9%;
+        margin-top: 1.8%;
+        padding-left: 16%;
 
         h2 {
             font-family: "Oswald", sans-serif;
             font-size: 4.8rem;
             font-weight: 300;
             line-height: 1;
-            letter-spacing: 4.8px;
+            letter-spacing: 4.6px;
             position: relative;
-            margin-bottom: 10.2%;
+            margin-bottom: 8.8%;
         }
 
         h2::after {
@@ -392,28 +392,29 @@ Design Part
             font-family: $font1;
             font-weight: 300;
             color: #231815;
-            line-height: 1.3;
-            margin-bottom: 5.7%;
+            line-height: 1.4;
+            margin-bottom: 4.4%;
+            letter-spacing: -0.1px;
         }
 
         p {
             font-family: $font1;
             font-size: 1.9rem;
-            font-weight: 200;
+            font-weight: 300;
             color: #231815;
             line-height: 1.8;
-            padding-right: 37px;
+            letter-spacing: -0.1px;
         }
     }
 
     &__video {
         width: 40.1%;
-        margin-top: 7.8%;
+        margin-top: 7.7%;
     }
 
     &__videowrapper {
         position: relative;
-        padding-bottom: 55.5%;
+        padding-bottom: 55.8%;
         height: 0;
         overflow: hidden;
 
@@ -433,7 +434,7 @@ Plan Part
 .p-plan {
     max-width: 1330px;
     width: 100%;
-    margin: 122px auto 92px;
+    margin: 123px auto 92px;
 
     &__title {
         text-align: center;
@@ -444,7 +445,8 @@ Plan Part
         padding-left: 12px;
         letter-spacing: 4.9px;
         position: relative;
-        margin-bottom: 7.6%;
+        margin-bottom: 5.8%;
+        padding-bottom: 1.8%;
     }
 
     &__title::after {
@@ -454,14 +456,14 @@ Plan Part
         background-color: #231815;
         display: block;
         position: absolute;
-        bottom: -34.5%;
+        bottom: 0;
         left: 48.2%;
     }
 
     &__image {
         display: flex;
         margin-left: 5.2%;
-        margin-bottom: 2%;
+        margin-bottom: 1.9%;
 
         .p-image {
             &__image2 {
@@ -554,7 +556,7 @@ Plan Part
     &__main {
         max-width: 1195px;
         width: 100%;
-        margin: 9.5% auto 0;
+        margin: 9.6% auto 0;
         font-family: $font1;
         text-align: left;
     }
@@ -602,7 +604,7 @@ Plan Part
         &__title4 {
             letter-spacing: -0.2px;
             padding-top: 2.9%;
-            padding-bottom: 0.7%;
+            padding-bottom: 0.6%;
         }
         
         &__content1,
@@ -660,7 +662,7 @@ Plan Part
 
         &__content4 {
             padding-top: 2.3%;
-            padding-bottom: 0.7%;
+            padding-bottom: 0.6%;
         }
     }
 }
@@ -941,7 +943,7 @@ Web Part
     }
 
     &__step:nth-child(1) {
-        padding-top: 3.3%;
+        padding-top: 3.4%;
         padding-bottom: 2.9%;
         background-color: #231815;
 
@@ -953,7 +955,7 @@ Web Part
         h5 {
             padding-right: 7%;
             letter-spacing: 0.1px;
-            margin-bottom: 3.5%;
+            margin-bottom: 3.6%;
         }
 
         p {
@@ -965,7 +967,7 @@ Web Part
     }
 
     &__step:nth-child(2) {
-        padding-top: 2.7%;
+        padding-top: 2.8%;
         padding-bottom: 2.8%;
         background-color: #565f64;
 
@@ -989,13 +991,13 @@ Web Part
     }
 
     &__step:nth-child(3) {
-        padding-top: 3.2%;
+        padding-top: 3.3%;
         padding-bottom: 2.9%;
         background-color: #565f64;
 
         img {
             width: 32px;
-            margin-bottom: 8.9%;
+            margin-bottom: 8.5%;
         }
 
         h5 {
@@ -1012,13 +1014,13 @@ Web Part
     }
 
     &__step:nth-child(4) {
-        padding-top: 3.3%;
+        padding-top: 3.4%;
         padding-bottom: 2.9%;
         background-color: #565f64;
 
         img {
             width: 34px;
-            margin-bottom: 9.7%;
+            margin-bottom: 9.3%;
         }
 
         h5 {
@@ -1034,14 +1036,14 @@ Web Part
     }
 
     &__step:nth-child(5) {
-        padding-top: 3.1%;
+        padding-top: 3.2%;
         padding-bottom: 2.9%;
         background-color: #7a89a8;
 
         img {
             width: 42px;
             padding-right: 1%;
-            margin-bottom: 8.8%;
+            margin-bottom: 8.6%;
         }
 
         h5 {
@@ -1114,9 +1116,9 @@ Web Part
             margin-bottom: 35px;
         
             p {
-                padding-left: 10px;
+                padding-left: 12px;
                 font-size: 2rem;
-                letter-spacing: 0.2px;
+                letter-spacing: 0.1px;
             }
         }
     
@@ -1139,17 +1141,17 @@ Web Part
             }
     
             h3 {
-                margin-right: 1.7%;
+                margin-right: 1.9%;
                 padding-top: 0.6%;
                 font-size: 3.2rem;
                 font-weight: 300;
-                letter-spacing: -1.7px;
+                letter-spacing: -2.7px;
             }
 
             span {
-                margin-left: -4.7px;
+                margin-left: 1px;
                 margin-right: 0;
-                letter-spacing: -2.4px;
+                letter-spacing: -2.8px;
             }
     
         }
@@ -1400,6 +1402,7 @@ Access Part
     width: 100%;
     margin: 0 auto 50px;
     display: flex;
+    align-items: center;
     background-color: #ededed;
 
     &__map {
@@ -1423,7 +1426,6 @@ Access Part
 
     &__reservation {
         width: 50%;
-        padding-top: 6.8%;
         padding-right: 1.5%;
     }
 
@@ -1434,6 +1436,7 @@ Access Part
         flex-direction: column;
         margin: 0 auto;
         align-items: center;
+        padding-top: 0.7%;
 
         h2 {
             position: relative;
@@ -1445,6 +1448,7 @@ Access Part
             text-align: center;
             margin-bottom: 7.5%;
             padding-right: 4.8%;
+            margin-top: 0.2%;
         }
 
         h2::after {
@@ -1478,7 +1482,7 @@ Access Part
         margin-bottom: 2px;
 
         li {
-            margin-bottom: 2.2%;
+            margin-bottom: 2.3%;
         }
 
         span {
@@ -1490,12 +1494,34 @@ Access Part
             text-align: center;
             margin-right: 15px;
             padding-left: 5px;
-            line-height: 1.9;
+            line-height: 2;
         }
 
         p {
             line-height: 1.1;
             letter-spacing: 0.6px;
+        }
+
+        li:first-child {
+            p {
+                margin-top: -0.4%;
+                letter-spacing: -0.5px;
+            }
+
+            span {
+                margin-top: 0.2%;
+            }
+        }
+
+        li:nth-child(3) {
+            p {
+                margin-top: 2.8%;
+                letter-spacing: 0;
+            }
+
+            span {
+                margin-top: -0.6%;
+            }
         }
     }
 
@@ -1513,8 +1539,8 @@ Present2 Part
 .p-present2 {
     max-width: 1213px;
     width: 100%;
-    margin: 86px auto 0;
-    padding: 0 8px;
+    margin: 88px auto 0;
+    padding: 0 7px 0 10px;
 }
 
 
